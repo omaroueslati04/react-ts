@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",
+    "lib": ["dom", "dom.iterable", "esnext"],    /* Ajoutez cette ligne */
+    "jsx": "react-jsx",                          /* Décommentez et modifiez cette ligne */
+
+    /* Modules */
+    "module": "commonjs",
+    "moduleResolution": "node",                  /* Décommentez cette ligne */
+    
+    /* JavaScript Support */
+    "allowJs": true,                            /* Décommentez cette ligne */
+    
+    /* Emit */
+    "noEmit": true,                             /* Décommentez cette ligne */
+
+    /* Interop Constraints */
+    "isolatedModules": true,                    /* Décommentez cette ligne */
+    "allowSyntheticDefaultImports": true,       /* Décommentez cette ligne */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [                                  /* Ajoutez cette section */
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
+}
